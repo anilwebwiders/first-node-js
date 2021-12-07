@@ -10,6 +10,7 @@ const hbs = require('hbs');
 const app = express();
 const PORT = process.env.PORT || 8080;
 
+//constant paths
 const CSS_PATH = path.join(__dirname,'assets/css');
 const JS_PATH = path.join(__dirname,'assets/js');
 const IMAGES_PATH = path.join(__dirname,'assets/images');
