@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Theme Region">
+   	<meta name="description" content="">
+
+    <title>Trade | Sign In</title>
+
+	{{? links }}
+   
+  </head>
+  <body>
+	{{> header}}
+
+	<!-- signin-page -->
+	<section id="main" class="clearfix user-page">
+		<div class="container">
+			<div class="row text-center">
+				<!-- user-login -->			
+				<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+					<div class="user-account">
+						<h2>User Login</h2>
+						<!-- form -->
+						<form action="#">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Username" >
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control" placeholder="Password" >
+							</div>
+							<button type="submit" class="btn">Login</button>
+						</form><!-- form -->
+					
+						<!-- forgot-password -->
+						<div class="user-option">
+							<div class="checkbox pull-left">
+								<label for="logged"><input type="checkbox" name="logged" id="logged"> Keep me logged in </label>
+							</div>
+							<div class="pull-right forgot-password">
+								<a href="#">Forgot password</a>
+							</div>
+						</div><!-- forgot-password -->
+					</div>
+					<a href="#" class="btn-primary">Create a New Account</a>
+				</div><!-- user-login -->			
+			</div><!-- row -->	
+		</div><!-- container -->
+	</section><!-- signin-page -->
+	
+	{{> footer }}
+	
+  </body>
+</html>
